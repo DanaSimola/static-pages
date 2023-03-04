@@ -12,214 +12,369 @@
           integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <style>
         .bg-row {
-            background: url('https://via.placeholder.com/1440x512');
+            background: url('./img/banner.jpg');
             background-repeat: no-repeat !important;
             background-size: cover !important;
             background-position: center;
         }
     </style>
-
 </head>
-<body class="bg-light">
-<div class="container-fluid"
-     data-bs-spy="scroll"
-     data-bs-target="#navbar"
-     data-bs-root-margin="0px 0px -40%"
-     data-bs-smooth-scroll="true"
-     tabindex="0">
+<body class="bg-light p-0 m-0 border-0">
 
-    <div class="row bg-secondary text-white shadow">
-        <div class="col">
-            <div class="container d-flex gap-3">
-                <span>telefonnummer</span>
-                <span>mail@mail</span>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand m-4" href="#">
+            <img src="https://via.placeholder.com/140" alt="Hem" width="140" height="140">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">
+                        Om oss
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">
+                        Kontakt
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Boenden
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#living1">Stödboende</a></li>
+                        <li><a class="dropdown-item" href="#living2">Träningslägenheter</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#living3">Skyddat boende</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="row bg-row" style="height: 379px;">
+    <div class="col">
+        <div class="m-4">
+            <span class="text-black display-2"> NAMN STÖDBOENDE</span><br/>
+            <span class="text-white display-6"> ÖKAD LIVSKVALITET – <br/> DYGNET RUNT, <br/>ÅRET RUNT.</span>
+        </div>
+    </div>
+</section>
+
+<section class="row bg-light">
+    <div class="col">
+        <div class="container mt-4 mb-4">
+            <div class="row">
+                <div class="col">
+                    <h4 class="display-4">Stöd hela vägen</h4>
+                    <p class="lead">
+                        Vi stöttar individen genom hela processen. Vi arbetar aktivt för att motverka
+                        utanförskap, så att individen får möjlighet att ingå i sociala sammanhang.
+                        Boendestödet individanpassas efter varje individs behov, och innefattar bland annat
+                        sociala interaktioner i form av till exempel praktik, daglig sysselsättning,
+                        fritidsaktiviteter
+                        och relationer samt ekonomi och hälsa.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
+</section>
 
-    <div class="row bg-light">
-        <div class="col">
-            <nav id="navbar" class="navbar navbar-expand">
-                <div class="container d-flex justify-content-between">
-                    <a class="navbar-brand" href="#">
-                        <img src="https://via.placeholder.com/140" alt="Hem" width="140" height="140">
-                    </a>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#n1">Om oss</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#n2">Tjänster</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#n3">Kontakt</a>
+<section class="row text-white bg-secondary">
+    <div class="col">
+        <div class="container mt-4 mb-4">
+            <div class="row">
+                <div class="col-md d-flex align-items-center justify-content-center">
+                    <i class="fa-regular fa-heart fa-10x"></i>
+                </div>
+                <div class="col-md text-center">
+                    <span id="about">
+                        <h4 class="display-6"> Om</h4>
+                        <h4 class="display-4"> Verksamheten</h4>
+                    </span>
+                    <p class="lead">
+                        Vi erbjuder boenden som riktar sig till unga vuxna och vuxna från 21 år som har en viss nivå av självständighet men som behöver stöd i sitt fortsatta förändringsarbete.
+                        Att etablera kontakter med insatser och aktiviteter som redan finns i samhället är en viktig del i stödet.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="row bg-light mt-4">
+    <div class="col-md d-flex align-items-center justify-content-center">
+
+    </div>
+</section>
+<section class="row bg-light">
+    <div class="col">
+        <div class="container mt-4 mb-4">
+            <div class="row">
+                <div class="col">
+                    <h4 class="display-4"> Boenden</h4>
+                    <p class="lead">Vi erbjuder stödboenden, träningslägenheter, skyddat boende för individer</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul class="list-unstyled lead">
+                        <li>
+                            <ul>
+                                <li>med psykosocial problematik</li>
+                                <li>med psykisk ohälsa</li>
+                                <li>med funktionshinder</li>
+                                <li>som ska slussas ut från genomförda behandlingar</li>
+                                <li>som ska integreras i det svenska samhället</li>
+                                <li>med skyddsbehov</li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
-            </nav>
-        </div>
-    </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <i class="fa-solid fa-house fa-10x"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <section>
+                        <h4 id="living1" class="display-6"> Stödboende</h4>
+                        <p class="lead">
+                            Stödboende tar emot unga vuxna och vuxna från 21 år, med insatser utan kollektiva
+                            inslag. Man bor alltid i egen lägenhet, fullt utrustad och med eget kök och badrum.
+                            Boendestödjaren arbetar aktivt med att stötta individen i att skapa en hållbar struktur
+                            genom sysselsättning, ADL och en meningsfull fritid. Till varje ärende kopplas en
+                            boendestödjare med uppdrag att stödja och vägleda individen att nå sina mål samt att
+                            säkerställa att vårdplanen följs.
+                            Här får individer trygga förhållanden att träna på ett självständigt liv i eget boende.
+                            Arbetet är utformat för att stötta personer som har svårt att hitta en hållbar och trygg
+                            livssituation på egen hand. Till exempel till följd av ett missbruk, sociala utmaningar
+                            eller
+                            psykisk ohälsa.
+                            Målet är att individen ska hitta en meningsfull vardag och få rätt verktyg för att leva
+                            på
+                            egen hand framöver. En viktig del av insatsen att stärka deras tilltro på den egna
+                            förmågan. En annan del är att ge varje individ rätt grund för att lösa olika utmaningar
+                            i
 
-    <div class="row bg-row text-white d-flex p-2 d-flex" style="height: 329px;">
-        <span class="align-self-center m-4">
-            <span class="display-10"> NAMN STÖDBOENDE</span><br/>
-            <span class="display-6"> ÖKAD LIVSKVALITET – <br/> DYGNET RUNT, <br/>ÅRET RUNT.</span>
-        </span>
-    </div>
+                            livet. Inte minst inom hemmet, sysselsättning, hälsa, ekonomi och kontakter med
+                            myndigheter.
+                        </p>
+                    </section>
 
-    <div class="row bg-light">
-        <div class="col">
-            <div class="container mt-4 mb-4">
-                <div class="row">
-                    <div class="col text-center">
-                        <img src="https://via.placeholder.com/140" alt="Hem" width="140" height="140">
-                        <h4 class="display-6">Rubrik 1</h4>
-                        <p>
-                            elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue magna placerat
-                            aliquam.elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue magna placerat
-                            aliquam.
+                    <section>
+                        <h4 id="living2" class="display-6"> Träningslägenheter</h4>
+                        <p class="lead">
+                            Vi erbjuder varje individ ett individuellt anpassat stöd av en stödperson som arbetar
+                            utifrån socialtjänstens uppdrag.
+                            I träningslägenheten ges stöd av stödperson på 1-2 gånger i veckan för att individen ska
+                            få de kunskaper som krävs för att klara att sköta ett eget boende, detta genom samma
+                            ADL-kartläggning som på Stödboende. individen och deras nätverk kan komma i kontakt
+                            med stödperson dygnet runt.
+                            Lägenheterna ligger i allmänna bostadshus, fullt utrustade med möbler, husgeråd, tv
+                            och internet. Våra träningslägenheter finns över hela Stockholm
                         </p>
-                    </div>
-                    <div class="col text-center">
-                        <img src="https://via.placeholder.com/140" alt="Hem" width="140" height="140">
-                        <h4 class="display-6">Rubrik 2</h4>
-                        <p>
-                            elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue magna placerat
-                            aliquam.elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue magna placerat
-                            aliquam.
+                    </section>
+
+                    <section>
+                        <h4 id="living3" class="display-6"> Skyddat boende</h4>
+                        <p class="lead">
+                            Vi har skyddade boende i form av egna lägenheter och kollektivt boende.
+                            Våra klienters säkerhet är viktigt för oss. Hos oss får individen en kontaktperson,
+                            individens kontakt med omvärlden sker i första hand genom kontaktpersonen.
+                            lägenheterna har kamerabevakning i korridorer och befinner sig aldrig på BV. Vårt
+                            kollektiva boende har kamerabevakning och larm. Det viktigaste säkerhetsarbetet
+                            består av förebyggande åtgärder.
                         </p>
-                    </div>
+                    </section>
+
+                    <section>
+                        <h4 class="display-6"> Kontaktperson</h4>
+                        <p class="lead">
+                            Vi utför riskbedömningar enl. FREDA, SARA och PATRIARK.
+                        </p>
+                        <ul class="list-unstyled mt-4">
+                            <li>
+                                <h4>
+                                    Ekonomi
+                                    <small class="text-muted">stöd i planerandet av privatekonomin, budgetplanering
+                                        mm.</small>
+                                </h4>
+                            </li>
+                            <li>
+                                <h4>
+                                    Säkerhet
+                                    <small class="text-muted">stöd i att hantera den egna säkerheten och uppdatera
+                                        hotbilden.</small>
+                                </h4>
+                            </li>
+                            <li>
+                                <h4>
+                                    Hälsa
+                                    <small class="text-muted">stöd med läkarbesök, planering av kost, handling,
+                                        matlagning
+                                        och träning.</small>
+                                </h4>
+                            </li>
+                            <li>
+                                <h4>
+                                    Psykisk hälsa
+                                    <small class="text-muted">stöd i kontakt med psykolog eller psykiatrin eller
+                                        adekvat verksamhet.</small>
+                                </h4>
+                            </li>
+                            <li>
+                                <h4>
+                                    Myndighetskontakter
+                                    <small class="text-muted">ombud vid kontakter med myndigheter, polis,
+                                        rättsväsende mm.</small>
+                                </h4>
+                            </li>
+                            <li>
+                                <h4>
+                                    Sysselsättning
+                                    <small class="text-muted">stöd i att söka jobb, praktik samt planering av
+                                        fritidsaktiviteter.</small>
+                                </h4>
+                            </li>
+                            <li>
+                                <h4>
+                                    Boende
+                                    <small class="text-muted">stöd i att leta boende efter det skyddade
+                                        boendet.</small>
+                                </h4>
+                            </li>
+                            <li>
+                                <h4>
+                                    Utbildning
+                                    <small class="text-muted">stöd i kontakt med skola, ansökning till utbildningar
+                                        och läxhjälp.</small>
+                                </h4>
+                            </li>
+                        </ul>
+                    </section>
                 </div>
             </div>
         </div>
     </div>
+</section>
 
-    <div class="row bg-secondary">
-        <div class="col">
-            <div class="container mt-4 mb-4">
-                <div class="row">
-                    <div class="col-md text-center">
-                        <img class="img-fluid" src="https://via.placeholder.com/256" alt="Hem">
-                    </div>
-                    <div class="col">
-                        <span class="text-center">
-                            <h4 class="display-6"> Om</h4>
-                            <h4 class="display-4"> Verksamheten</h4>
-                        </span>
-                        <p>
-                            elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue magna placerat
-                            aliquam.elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue magna placerat
-                            aliquam.
-                        </p>
-                    </div>
+<section class="row text-white bg-secondary">
+    <div class="col">
+        <div class="container mt-4 mb-4">
+            <div class="row">
+                <div class="col">
+                    <h4 class="display-4 mb-4">Målgrupp</h4>
+                    <ul>
+                        <li>
+                            <p class="lead">
+                                Kvinnor och män med eller utan barn i alla åldrar
+                            </p>
+                        </li>
+                        <li>
+                            <p class="lead">
+                                Kvinnor och män med funktionsnedsättning
+                            </p>
+                        </li>
+                        <li>
+                            <p class="lead">
+                                Husdjur är välkomna
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md d-flex align-items-center justify-content-center">
+                    <i class="fa-solid fa-bullseye fa-10x"></i>
                 </div>
             </div>
         </div>
     </div>
+</section>
 
-    <div class="row bg-light">
-        <div class="col">
-            <div class="container mt-4 mb-4">
-                <div class="row">
-                    <div class="col">
-                        <h4 class="display-6"> Rubrik</h4>
-                        <p>
-                            elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue magna placerat
-                            aliquam.elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue magna placerat
-                            aliquam.
-                        </p>
-                    </div>
-                    <div class="col-md text-center">
-                        <img class="img-fluid" src="https://via.placeholder.com/512" alt="Hem">
-                    </div>
+<section class="row bg-light">
+    <div class="col">
+        <div class="container mt-4 mb-4 text-center">
+            <div class="row">
+                <div class="col">
+                                <span>
+                                    <h4 class="display-4"> Bilder på lägenheter</h4>
+                                </span>
+                    <p>
+                        elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue magna
+                        placerat
+                        aliquam.elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue
+                        magna placerat
+                        aliquam.
+                    </p>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <h4 class="display-6"> Rubrik</h4>
-
-                        <h5> Rubrik</h5>
-                        <p>
-                            elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue magna placerat
-                            aliquam.elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue magna placerat
-                            aliquam.
-                        </p>
-
-                        <h5> Rubrik</h5>
-                        <p>
-                            elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue magna placerat
-                            aliquam.elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue magna placerat
-                            aliquam.
-                        </p>
-
-                        <h5> Rubrik</h5>
-                        <p>
-                            elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue magna placerat
-                            aliquam.elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue magna placerat
-                            aliquam.
-                        </p>
-                    </div>
+            </div>
+            <div class="row text-center justify-content-center">
+                <div class="col-md-6">
                 </div>
             </div>
         </div>
     </div>
+</section>
 
-    <div class="row bg-secondary">
-        <div class="col">
-            <div class="container mt-4 mb-4 text-center">
-                <div class="row">
-                    <div class="col">
-                        <span>
-                            <h4 class="display-6"> Bilder på lägenheter</h4>
-                        </span>
-                        <p>
-                            elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue magna placerat
-                            aliquam.elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue magna placerat
-                            aliquam.
-                        </p>
-                    </div>
-                </div>
-                <div class="row text-center justify-content-center">
-                    <div class="col-md-6">
-
-
-
-                    </div>
+<section class="row bg-light">
+    <div class="col">
+        <div class="container mt-4 mb-4">
+            <div class="row">
+                <div class="col text-center">
+                    <img src="https://via.placeholder.com/256" alt="Hem">
                 </div>
             </div>
         </div>
     </div>
+</section>
 
-    <hr/>
-    <div class="row bg-light">
-        <div class="col">
-            <div class="container mt-4 mb-4">
-                <div class="row">
-                    <div class="col text-center">
-                        <img src="https://via.placeholder.com/256" alt="Hem">
-                    </div>
+<footer class="row text-white bg-secondary">
+    <div class="col">
+        <div class="container">
+            <div class="row mt-4 mb-4">
+                <div class="col text-center">
+                    <h4 class="display-4">Målsättning</h4>
+                    <p class="lead">
+                        Insatserna utformas efter varje individs behov, med målet att individen ska ha en väl
+                        fungerande vardag och ingå i ett socialt sammanhang.
+                        Genom individuellt anpassade vardagslösningar stöttar vi individen till ökad livskvalitet.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul class="list-unstyled">
+                        <li>Telefon</li>
+                        <li>Mail</li>
+                        <li>Address</li>
+                    </ul>
+
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <hr/>
+                    <small>Copyright &copy; 2023</small>
                 </div>
             </div>
         </div>
     </div>
+</footer>
 
-    <div class="row bg-secondary text-white">
-        <div class="col">
-            <div class="container">
-                <div class="row mt-4 mb-4">
-                    <div class="col text-center">
-                        <p>
-                            elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna
-                            congue magna placerat aliquam.elit sed fringilla. Vestibulum sit amet congue dolor. Nunc fermentum urna congue magna placerat aliquam.
-                        </p>
-                        <span>&copy;</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<script type="module" src="./src/index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/959ae44fee.js" crossorigin="anonymous"></script>
 </body>
 </html>
